@@ -5,13 +5,32 @@ main {
     }
 }
 
-.row {
-    height: 100%;
-}
-.col {
-    height: 100%;
+// .row {
+//     height: 100%;
+// }
+// .col {
+//     height: 100%;
+//     padding: 50px;
+// }
+
+.row-top {
+    height: 70vh;
+    background-color: rgba(250, 235, 215, 0.2);
 }
 
-.col-left {
-    background-color: antiquewhite;
+.row-bottom {
+    height: 40vh;
+    background-color: rgba(250, 235, 215, 0.5);
+}
+
+#about {
+    background-color: rgba(250, 235, 215, 0.5);
+}
+
+#projects {
+    background-color: rgba(250, 235, 215, 0.2);
+}
+
+#about {
+    background-color: rgba(250, 235, 215, 0.5);
 }

@@ -2906,8 +2906,41 @@ a.text-dark:hover, a.text-dark:focus {
 .tab-content > .active {
   display: block; }
 
-main > section {
-  height: 110vh;
-  padding: 20px; }
+main {
+  margin: 0; }
+  main > section {
+    height: 110vh; }
+
+.row-top {
+  height: 70vh;
+  background-color: rgba(250, 235, 215, 0.2); }
+
+.row-bottom {
+  height: 40vh;
+  background-color: rgba(250, 235, 215, 0.5); }
+
+#about {
+  background-color: rgba(250, 235, 215, 0.5); }
+
+#projects {
+  background-color: rgba(250, 235, 215, 0.2); }
+
+#about {
+  background-color: rgba(250, 235, 215, 0.5); }
+
+header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+.nav-link {
+  color: black; }
+  .nav-link:visited {
+    color: black; }
+  .nav-link:hover {
+    color: grey; }
 
 /*# sourceMappingURL=style.css.map */
