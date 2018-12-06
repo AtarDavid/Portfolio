@@ -2911,9 +2911,12 @@ main {
   main > section {
     height: 110vh; }
 
+.row {
+  height: 100%; }
+
 .row-top {
   height: 70vh;
-  background-color: rgba(250, 235, 215, 0.2); }
+  background-color: white; }
 
 .row-bottom {
   height: 40vh;
@@ -2925,8 +2928,18 @@ main {
 #projects {
   background-color: rgba(250, 235, 215, 0.2); }
 
-#about {
+#contact {
+  background-color: white; }
+
+.col {
+  height: 100%;
+  padding: 50px; }
+
+.col-left {
   background-color: rgba(250, 235, 215, 0.5); }
+
+.col-right {
+  background-color: white; }
 
 header {
   position: absolute;

@@ -5,32 +5,41 @@ main {
     }
 }
 
-// .row {
-//     height: 100%;
-// }
-// .col {
-//     height: 100%;
-//     padding: 50px;
-// }
+.row {
+    height: 100%;
+}
 
 .row-top {
     height: 70vh;
-    background-color: rgba(250, 235, 215, 0.2);
+    background-color: $light-background;
 }
 
 .row-bottom {
     height: 40vh;
-    background-color: rgba(250, 235, 215, 0.5);
+    background-color: $dark-background;
 }
 
 #about {
-    background-color: rgba(250, 235, 215, 0.5);
+    background-color: $dark-background;
 }
 
 #projects {
-    background-color: rgba(250, 235, 215, 0.2);
+    background-color: $medium-background;
 }
 
-#about {
-    background-color: rgba(250, 235, 215, 0.5);
+#contact {
+    background-color: $medium-background;
+}
+
+.col {
+    height: 100%;
+    padding: 50px;
+}
+
+.col-left {
+    background-color: $dark-background;
+}
+
+.col-right {
+    background-color: $light-background;
 }
