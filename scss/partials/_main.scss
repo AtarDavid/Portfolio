@@ -1,6 +1,17 @@
 main {
+    margin: 0;
     & > section {
         height: 110vh;
-        padding: 20px;
     }
+}
+
+.row {
+    height: 100%;
+}
+.col {
+    height: 100%;
+}
+
+.col-left {
+    background-color: antiquewhite;
 }
