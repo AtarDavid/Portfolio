@@ -1,18 +1,29 @@
-header {
+.navbar {
     position: absolute;
     z-index: 100;
     width: 100%;
     padding: 10px;
     display: flex;
+}
+
+.navbar-brand {
+    flex-basis: 35%;
+}
+
+.justify-content-between {
     justify-content: space-between;
 }
 
-.nav-link {
-    color: black;
-    &:visited  {
-        color: black;
-    }
-    &:hover {
-        color: grey;
-    }
+ul.justify-content-center {
+    justify-content: center;
 }
+
+// .nav-link {
+//     color: black;
+//     &:visited  {
+//         color: black;
+//     }
+//     &:hover {
+//         color: grey;
+//     }
+// }
