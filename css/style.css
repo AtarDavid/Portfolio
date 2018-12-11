@@ -6322,13 +6322,15 @@ header {
 h1.heading {
   font-size: 2em; }
 
-main {
-  margin: 0;
-  background-color: white; }
-  main * {
-    margin: 0; }
-  main > section {
-    height: 110vh; }
+p {
+  font-size: 1.2em;
+  padding: 0.5em 0; }
+
+main * {
+  margin: 0; }
+
+main > section {
+  min-height: 110vh; }
 
 .row {
   height: 100%;
@@ -6340,7 +6342,6 @@ main {
   height: 70vh; }
   .row-top .align-content-center {
     width: 100%;
-    position: absolute;
     top: 200px;
     bottom: 50px;
     padding: 0 20px; }
@@ -6358,14 +6359,14 @@ main {
       padding: 0 50px; } }
 
 .row-bottom {
-  height: 40vh;
-  background-color: rgba(250, 235, 215, 0.5); }
+  height: 40vh; }
 
-#about {
-  background-color: rgba(250, 235, 215, 0.5); }
+#about .wrap {
+  max-width: 600px;
+  padding: 20px; }
 
-#projects {
-  background-color: rgba(250, 235, 215, 0.2); }
+#projects .container {
+  padding: 20px; }
 
 #contact {
   background-color: rgba(250, 235, 215, 0.2); }

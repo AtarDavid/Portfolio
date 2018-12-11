@@ -1,13 +1,11 @@
 // Main Styles
 
 main {
-    margin: 0;
-    background-color: $light-background;
     * {
         margin: 0;
     }
     & > section {
-        height: 110vh;
+        min-height: 110vh;
     }
 }
 
@@ -19,6 +17,7 @@ main {
     }
 }
 
+
 // Home
 
 .row-top {
@@ -26,7 +25,6 @@ main {
 
     .align-content-center {
         width: 100%;
-        position: absolute;
         top: 200px;
         bottom: 50px;
         padding: 0 20px;
@@ -55,23 +53,24 @@ main {
 
 .row-bottom {
     height: 40vh;
-    background-color: $dark-background;
 }
 
 // About
 
 #about {
-    background-color: $dark-background;
-    div {
+    .wrap {
         max-width: 600px;
         padding: 20px;
+        
     }
 }
 
-
+// Projects
 
 #projects {
-    background-color: $medium-background;
+    .container {
+padding: 20px;
+}
 }
 
 #contact {
