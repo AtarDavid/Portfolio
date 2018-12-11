@@ -58,9 +58,17 @@ main {
     background-color: $dark-background;
 }
 
+// About
+
 #about {
     background-color: $dark-background;
+    div {
+        max-width: 600px;
+        padding: 20px;
+    }
 }
+
+
 
 #projects {
     background-color: $medium-background;
