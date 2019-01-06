@@ -6323,7 +6323,7 @@ h1 {
   font-size: 2em; }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 0.5em 0; }
 
 * {
@@ -6340,7 +6340,7 @@ img.coverPhoto {
   margin-bottom: -270px; }
 
 #about .wrap {
-  max-width: 600px;
+  max-width: 800px;
   padding: 20px; }
 
 #projects .container {
@@ -6350,7 +6350,7 @@ img.coverPhoto {
   background-color: rgba(250, 235, 215, 0.2); }
   #contact .bg-light {
     height: 110vh;
-    padding: 50px; }
+    padding: 40px; }
 
 .navbar {
   z-index: 100;
