@@ -1,4 +1,8 @@
 // Main Styles
+* {
+    margin: 0;
+    padding: 0;
+}
 
 main {
     * {
@@ -9,50 +13,12 @@ main {
     }
 }
 
-.row {
-    height: 100%;
-    margin: 0;
-    & .col {
-        height: 110vh;
-    }
-}
-
 
 // Home
 
-.row-top {
-    height: 70vh;
 
-    .align-content-center {
-        width: 100%;
-        top: 200px;
-        bottom: 50px;
-        padding: 0 20px;
-
-        h1 {
-            margin-top: 50px;
-        }
-    }
-}
-
-@include media-breakpoint-up(md) {
-    .row-top {
-    .align-content-center {
-        width: 100%;
-        display: flex;
-        flex-direction: column nowrap;
-        align-items: center;
-        padding: 0 20px;
-
-        img {
-            padding: 0 50px;
-        }
-    }
-    }
-}
-
-.row-bottom {
-    height: 40vh;
+img {
+    margin-bottom: -270px;
 }
 
 // About
@@ -75,17 +41,14 @@ padding: 20px;
 
 #contact {
     background-color: $medium-background;
-}
 
-.col {
-    height: 100%;
+
+.bg-light{
+    height: 110vh;
     padding: 50px;
 }
-
-.col-left {
-    background-color: $dark-background;
 }
-
-.col-right {
-    background-color: $light-background;
-}
+// .col-right {
+//     background-color: $light-background;
+//     height: 65vh;
+// }

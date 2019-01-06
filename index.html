@@ -12,7 +12,7 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body class="w-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
             <a class="navbar-brand" href="#"><img src="https://via.placeholder.com/40" alt="Home"></a>
@@ -36,25 +36,31 @@
                         <a class="nav-link" href="#">One more</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Hire me!</button>
-                </form>
+                <a class=" btn-link " href="./contact.html">
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="button">Hire me!</button>
+                    </form>
+                </a>
             </div>
         </nav>
     </header>
-    <main class="m-0 bg-light">
-        <section id="home">
-            <div class="row row-top">
-                <div class="align-content-center position-absolute">
-                    <img class="mx-auto" src="https://loremflickr.com/360/480" alt="">
+    <main class="m-0 bg-light w-100">
+        <section class="d-flex m-0" id="home">
+            <div class="row m-0 w-100 align-items-end">
+                <div class="col-md-6 p-5 pt-5 d-flex justify-content-end">
+                    <h1>Hi, my name is Atar. I'm a web developer located in Berlin.</h1>
+                </div>
+                <div class="col-md-6 d-flex flex-row flex-nowrap justify-content-between align-items-end">
+                    <div class="image p-5">
+                        <img class="mw-100" src="https://loremflickr.com/360/480" alt="Cover photo">
+                    </div>
+                </div>
+                <div class="row bg-dark m-0 w-100 h-50">
 
-                    <h1>Hi, My name is Atar. I'm a web developer located in Berlin.</h1>
                 </div>
             </div>
-            <div class="row row-bottom bg-dark">
-            </div>
         </section>
-        <section class="bg-dark" id="about">
+        <section class="bg-dark w-100" id="about">
             <div class="wrap mx-auto">
                 <h2>About</h2>
                 <p>
@@ -160,15 +166,30 @@
                 </div>
             </div>
         </section>
-        <section id="contact">
-            <div class="row">
-                <div class="col col-left">
-                    1 of 2
-                </div>
-                <div class="col col-right">
-                    2 of 2
-                    Contact
-                </div>
+        <section class="d-flex" id="contact">
+            <div class="col col-md-6">
+                <!-- <img src="https://loremflickr.com/200/300" alt="Contact page picture"> -->
+            </div>
+            <div class="col col-md-6 bg-light d-flex flex-column justify-content-center">
+                <h3>
+                    Contact me
+                </h3>
+                <p>
+                    Atar David <br>
+                    Eisenbahnstr. 38 <br>
+                    10997 Berlin <br>
+                    <br>
+                    +49 175 30 55 467 <br>
+                    <br>
+                    <a href="mailto:atardavid@gmail.com">atardavid@gmail.com</a>
+                </p>
+                <h3>
+                    Social
+                </h3>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Github</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
         </section>
     </main>
     <footer>
