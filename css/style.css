@@ -6336,7 +6336,7 @@ main * {
 main > section {
   min-height: 110vh; }
 
-img {
+img.coverPhoto {
   margin-bottom: -270px; }
 
 #about .wrap {
