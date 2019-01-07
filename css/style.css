@@ -6355,16 +6355,14 @@ img.coverPhoto {
 .navbar {
   z-index: 100;
   width: 100%;
-  padding: 10px;
-  display: flex; }
+  padding: 10px; }
 
 .navbar-brand {
   flex-basis: 35%; }
 
-.justify-content-between {
-  justify-content: space-between; }
-
-ul.justify-content-center {
-  justify-content: center; }
+.btn-link {
+  text-decoration: none; }
+  .btn-link:hover, .btn-link:focus, .btn-link:visited {
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
