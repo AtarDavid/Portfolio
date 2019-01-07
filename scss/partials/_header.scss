@@ -7,3 +7,12 @@
 .navbar-brand {
     flex-basis: 35%;
 }
+
+.btn-link {
+    text-decoration: none;
+    &:hover,
+    &:focus,
+    &:visited {
+        text-decoration: none;
+    }
+}
