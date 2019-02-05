@@ -11,6 +11,7 @@ main {
     & > section {
         min-height: 110vh;
     }
+    
 }
 
 
@@ -27,7 +28,10 @@ img.coverPhoto {
     .wrap {
         max-width: 800px;
         padding: 20px;
+        @include media-breakpoint-up(md) {
         
+            padding-top: 15%;
+          }
     }
 }
 

@@ -6342,6 +6342,9 @@ img.coverPhoto {
 #about .wrap {
   max-width: 800px;
   padding: 20px; }
+  @media (min-width: 768px) {
+    #about .wrap {
+      padding-top: 15%; } }
 
 #projects .container {
   padding: 20px; }
