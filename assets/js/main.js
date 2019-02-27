@@ -7,8 +7,6 @@ class gitHubData {
 
         // Store my data
         this.data = null
-
-        this.fetchData()
     }
 
     fetchData() {
@@ -29,6 +27,7 @@ class gitHubData {
     }
 
     render() {
+        this.outputDiv.classList.remove('d-none')
         let output = ` <section class="mx-auto text-center">
         <div class="container p4 pb-4">
             <h2>Projects</h2>
